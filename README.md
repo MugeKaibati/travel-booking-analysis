@@ -55,6 +55,6 @@ Finally, I exported the reshaped results to a CSV file.
 
 ## Project Files
 
-- `notebooks/analysis.ipynb` — the data cleaning and analysis notebook
-- `outputs/booking_value_analysis.csv` — the exported booking value table
-- `pyproject.toml` — Python project configuration
+- `notebooks/analysis.ipynb` - the data cleaning and analysis notebook
+- `outputs/booking_value_analysis.csv` - the exported booking value table
+- `pyproject.toml` - Python project configuration
