@@ -1,0 +1,26 @@
+[project]
+name = "travel-project"
+version = "0.1.0"
+description = "Exploratory data analysis of travel bookings from 2023 to 2025 using Python, Pandas, and NumPy to uncover business growth, package performance, and revenue trends."
+readme = "README.md"
+authors = [
+    { name = "MugeKaibati", email = "martinkaibati@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "pyarrow>=25.0.1",
+]
+
+[project.scripts]
+travel-project = "travel_project:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+]

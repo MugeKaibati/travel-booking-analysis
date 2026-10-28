@@ -1,0 +1,33 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+# Original notebook backup
+notebooks/analysis_backup.ipynb
+
+# Original datasets
+data/raw/
+
+# Previous working notebook
+notebooks/analysis_previous.ipynb
+
+# Unrelated notebook file
+notebooks/M-PesaBookings
